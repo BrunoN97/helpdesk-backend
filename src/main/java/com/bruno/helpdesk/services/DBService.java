@@ -26,14 +26,14 @@ public class DBService {
 	private ChamadoRepository chamadoRepository;
 
 	public void instanciaDB() {
-		Tecnico tec1 = new Tecnico(null, "Bruno Nobre", "63653230268", "nobre.piaget@gmail.com", "123");
+		Tecnico tec1 = new Tecnico(null, "Bruno Nobre", "31267068868", "nobre.piaget@gmail.com", "123");
 		tec1.addPerfil(Perfil.ADMIN);
-		Tecnico tec2 = new Tecnico(null, "Victor Nobre", "45163688898", "nobre@gmail.com", "123");
-		Tecnico tec3 = new Tecnico(null, "João Freire", "45186899956", "piaget@gmail.com", "123");
+		Tecnico tec2 = new Tecnico(null, "Victor Nobre", "15552445805", "nobre@gmail.com", "123");
+		Tecnico tec3 = new Tecnico(null, "João Freire", "85812647860", "piaget@gmail.com", "123");
 
-		Cliente cli1 = new Cliente(null, "Linus Torvades", "80527954780", "torvades@mail.com", "123");
-		Cliente cli2 = new Cliente(null, "Maria Torvades", "12378955544", "Maria@mail.com", "123");
-		Cliente cli3 = new Cliente(null, "Jorge Tonho", "11222211213", "Jorge@mail.com", "123");
+		Cliente cli1 = new Cliente(null, "Linus Torvades", "00007517823", "torvades@mail.com", "123");
+		Cliente cli2 = new Cliente(null, "Maria Torvades", "97718900851", "Maria@mail.com", "123");
+		Cliente cli3 = new Cliente(null, "Jorge Tonho", "36816313879", "Jorge@mail.com", "123");
 
 		Chamado c1 = new Chamado(null, Prioridade.MEDIA, Status.ANDAMENTO, "Chamado 01", "Primeiro chamado", tec1,
 				cli1);
